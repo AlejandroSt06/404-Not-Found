@@ -1,0 +1,75 @@
+body{
+    color:#333333;
+    overflow: hidden;
+    
+}
+h2{
+    margin-left:25px;
+}
+.container{
+    margin:75px auto;
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+.container section{
+
+    width: 40%;
+    
+}
+.container section h1{
+
+    font-family: Space Mono;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+    text-align: left;
+
+}
+.container section p{
+    
+    font-family: Space Mono;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+    text-align: left;
+    
+}
+button{
+
+    width: 216px;
+    height: 68px;
+    background-color: #333333;
+    color: white;
+    margin:30px auto;
+    border:none;
+    transition: all 0.5s ease-out;
+
+}
+button:hover{
+
+    background-color: #ffffff;
+    color:#333333;
+    border:1px solid #333333;
+}
+@media screen and (max-width:1080px){
+
+    .container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .container section{
+
+        width: 80%;
+        
+    }
+    body{
+        
+        overflow: visible;
+        overflow-x: hidden;
+        
+    }
+}
